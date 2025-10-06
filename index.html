@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tala | Personal Website</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      text-align: center;
+      background: url("https://i.pinimg.com/originals/80/f3/d9/80f3d94416b57638aae3a637a14c0336.gif");
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      color: #111;
+    }
+
+    header {
+      background-color: rgba(155, 89, 182, 0.9); 
+      padding: 30px;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 26px;
+      color: #6a0dad; 
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    img {
+      margin: 20px 0;
+      border-radius: 12px;
+      width: 250px;
+      border: 3px solid #6a0dad; 
+    }
+
+    .section-box {
+      background: rgba(255, 255, 255, 0.95);
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(106, 13, 173, 0.3); 
+    }
+
+    .skills, .hobbies {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .skill, .hobby {
+      background: #d8b4f8; /* موف فاتح */
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #111;
+    }
+
+    button {
+      background: #6a0dad; 
+      border: none;
+      padding: 12px 24px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+
+    button:hover {
+      background: #4b0082; 
+    }
+
+    footer {
+      background: rgba(155, 89, 182, 0.9); 
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, I'm Tala ^_^</h1>
+    <p>Computer & Network Engineering Student</p>
+  </header>
+
+ 
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlud3lzc3QwajdudW9jOTBjMWpkOWcxYjA2dDk0OWdtcmdvNWwwayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cBncDNrdxga2I/giphy.gif" alt="Welcome Cat">
+
+  <div class="section-box">
+    <h2>About Me</h2>
+    <p>I'm Tala, a passionate Computer & Networks Engineering student who loves learning, building, and exploring technology </p>
+  </div>
+
+  <div class="section-box">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill"> Networking</div>
+      <div class="skill"> Programming</div>
+      <div class="skill"> Problem Solving</div>
+      <div class="skill"> Creativity</div>
+    </div>
+  </div>
+
+  <div class="section-box">
+    <h2>Fun & Hobbies</h2>
+    <div class="hobbies">
+      <div class="hobby">👗 Fashion</div>
+      <div class="hobby">🎨 Art</div>
+    </div>
+  </div>
+
+
+  <div class="section-box">
+    <h2>Contact Me</h2>
+    <button onclick="openLinkedIn()">LinkedIn</button>
+    <button onclick="openEmail()">Email Me</button>
+  </div>
+
+
+  <script>
+    function openLinkedIn() {
+      window.open("https://www.linkedin.com/in/tala-alqahtani-44b520351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", "_blank");
+    }
+
+    function openEmail() {
+      window.location.href = "mailto:alqhtanitala@gmail.com";
+    }
+  </script>
+
+</body>
+</html>
